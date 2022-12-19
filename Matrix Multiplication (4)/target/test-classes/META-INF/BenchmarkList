@@ -1,0 +1,2 @@
+JMH S 27 benchmarking.DenseBenchMark S 78 benchmarking.jmh_generated.DenseBenchMark_standardMatrixMultiplication_jmhTest S 28 standardMatrixMultiplication S 11 AverageTime E A 1 1 1 E I 1 3 T 3 2 s E I 1 3 T 3 2 s E I 1 2 E E E E E E E E E 
+JMH S 27 benchmarking.DenseBenchMark S 74 benchmarking.jmh_generated.DenseBenchMark_transposedMultiplication_jmhTest S 24 transposedMultiplication S 11 AverageTime E A 1 1 1 E I 1 3 T 3 2 s E I 1 3 T 3 2 s E I 1 2 E E E E E E E E E 
