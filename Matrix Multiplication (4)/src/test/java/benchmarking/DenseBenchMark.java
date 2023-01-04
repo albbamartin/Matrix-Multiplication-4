@@ -11,13 +11,11 @@ import com.model.operations.sequential.DenseMatrixTransposedMultiplication;
 import org.openjdk.jmh.annotations.*;
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.AverageTime)
 @Fork(value = 2)
 @Warmup(iterations = 3, time = 2)
 @Measurement(iterations = 3, time = 2)
-@OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class DenseBenchMark {
     private static final int SIZE = 1024;
 
@@ -61,7 +59,6 @@ public class DenseBenchMark {
         executeWith(new DenseMatrixThreadsMultiplication());
     }
 
-
     private void executeWith(MatrixMultiplication matrixMultiplication) {
         matrixMultiplication.multiply(createRandomMatrix(SIZE), createRandomMatrix(SIZE));
     }
@@ -76,6 +73,4 @@ public class DenseBenchMark {
         }
         return builder.toMatrix();
     }
-
-
 }

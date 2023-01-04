@@ -3,14 +3,6 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,benchmarking/DenseBenchMark.atomicMultiplication
-inline,benchmarking/DenseBenchMark.executerServiceMultiplication
-inline,benchmarking/DenseBenchMark.loopInterchangeMultiplication
-inline,benchmarking/DenseBenchMark.semaphoreMultiplication
-inline,benchmarking/DenseBenchMark.standardMatrixMultiplication
-inline,benchmarking/DenseBenchMark.streamsMultiplication
-inline,benchmarking/DenseBenchMark.threadsMultiplication
-inline,benchmarking/DenseBenchMark.transposedMultiplication
 inline,benchmarking/SparseBenchMark.executorServiceMultiplication
 inline,benchmarking/SparseBenchMark.semaphoreMultiplication
 inline,benchmarking/SparseBenchMark.standardSparseMultiplication
